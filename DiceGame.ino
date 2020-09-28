@@ -63,9 +63,6 @@ void loop() {
       digitalWrite (ledSet4, HIGH);
     }
     else {}
-    Serial.print ("You rolled a ");
-    Serial.println (roll);
-    delay (time);
   }
 
   // Fill in the blanks to turn the LEDs off.
