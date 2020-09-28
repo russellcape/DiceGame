@@ -34,7 +34,7 @@ void setup () {
 void loop() {
   buttonState = digitalRead(button);
   // Turn the button on using HIGH or LOW.
-  if (buttonState == ) {
+  if (buttonState == HIGH) {
     // Here, we are rolling a number to 1 and less than 7 (1-6).
     roll = random(1, 7);
     // Each roll needs a certain combination of ledSets to turn on. Fill in the blanks with the correct ledSets: ie. 'ledSet4'.
